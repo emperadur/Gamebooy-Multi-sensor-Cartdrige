@@ -8,6 +8,7 @@ There are four test points placed on this cartridge
 - 5V - checks the 5V line from Pin 1 (VCC)
 - 3.3 V - checks the 3.3V line leaving pin 6 (VOUT) of the 3.3V regulator (XC6206P332DR-G)
 - BAT - checks the CR12XX battery voltage
+- CMD - checks to see if the command pulse is triggered to the NAND/NOR logic for writing and reading data from the ATmega328
 - SDA - cheks the SDA I<sup>2</sup>C data line. Both the sensor (BME680) & clock (DS13072N+) are connected to the same test point
 - SCL -cheks the SCL I<sup>2</sup>C data line. Both the sensor (BME680) & clock (DS13072N+) are connected to the same test point
 
