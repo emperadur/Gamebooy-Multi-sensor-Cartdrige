@@ -57,7 +57,7 @@ Thanks to [Orangeglo](https://github.com/orangeglo) for his help in designing th
 
 # Revision History
 
-**V1.1**
+**V 1.1**
 
 -Updated board schematics, corrected impropper voltage routing, and added a magnetometer sensor.
 
