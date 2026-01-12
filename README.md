@@ -45,6 +45,8 @@ _Copied from MouseBite Labs' README_
 
 # Links & Acknowledgements
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O21S4YC9)
+
 [GBxCart](https://www.gbxcart.com/)
 
 [Lesserkuma's Flash GBX Software](https://github.com/lesserkuma/FlashGBX)
