@@ -1,6 +1,13 @@
 # Gamebooy-Multi-sensor-Cartdrige
 A gameboy cartridge that can be used as a home multi-sensor or taken with you on adventures
 
+# Parts Needed & Construction
+
+
+# Auduino Flashing
+
+The heart of this flash cart is an Atmega32U-MU microcontroller. The board has been designed with a USB-C port to make flashing the microcontroller easy. First, you will need to download and install the [Arduino IDE](https://docs.arduino.cc/software/ide/).
+
 # Links to Digikey/Mouser Cart Orders
 XXXX
 
@@ -49,6 +56,10 @@ https://tinkerer.us/projects/homebrew-gameboy-cartridge.html
 Thanks to [Orangeglo](https://github.com/orangeglo) for his help in designing this cartridge
 
 # Revision History
+
+**V1.1**
+
+-Updated board schematics, corrected impropper voltage routing, and added a magnetometer sensor.
 
 **V 1.0**
 
