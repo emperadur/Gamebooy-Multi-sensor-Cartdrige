@@ -1,4 +1,4 @@
-# Gamebooy-Multi-sensor-Cartdrige
+# Gameboy-Multi-sensor-Cartdrige
 A gameboy cartridge that can be used as a home multi-sensor or taken with you on adventures
 
 # Parts Needed & Construction
@@ -30,17 +30,18 @@ There are nine test points placed on this cartridge:
 - 5V - checks the 5V line from Pin 1 (VCC)
 - 3.3 V - checks the 3.3V line leaving pin 6 (VOUT) of the 3.3V regulator (MIC5255-3.3)
 - BAT - checks the CR12XX battery voltage
-- CMD - checks to see if the command pulse is triggered to the NAND/NOR logic for writing and reading data from the ATmega328
 - SDA - cheks the SDA I<sup>2</sup>C data line. Both the sensor (BME680) & clock (DS13072N+) are connected to the same test point
 - SCL -cheks the SCL I<sup>2</sup>C data line. Both the sensor (BME680) & clock (DS13072N+) are connected to the same test point
-- RESET - pad for soldering to a XXX
-- MISO - XXXX
-- MOSI - XXXX
-- SCLK - XXXX
+  
+These 4 pads are useful for soldering to if you want to reporogram the Atmega32u4 following In-Circut Serial Programming (ISP) lines
+- RESET - pad tied to pin 13 (reset). This pad could also be useful in troubleshooting reset functionality either on the atmega32u4 or the gameboy.
+- MISO - Master Input-Slave Output pin 11
+- MOSI - Master Output-Slave Input pin 10
+- SCLK - Serial Clock pin 9
 
 There is one jumper pad that must be soldered prior to powering on the board.
 
-- JP2 - jumper 2 is an output driver for the 7-bit address for the sensor (BME680), and connects pin 6 (SDO) to either 3.3V or GND. The jumper must be bridged prior to powering the device for the first time. The 7-buit address is 111011x. Connecting JP2 to 3.3V results in a slave address of 1110111 (0x77) and connecting JP2 to GND results in a slave address of 1110110 (0x76).
+- JP - This jumper is an output driver for the 7-bit address for the sensor (BME680), and connects pin 6 (SDO) to either 3.3V or GND. The jumper must be bridged prior to powering the device for the first time. The 7-buit address is 111011x. Connecting JP2 to 3.3V results in a slave address of 1110111 (0x77) and connecting JP2 to GND results in a slave address of 1110110 (0x76).
 
 # Board Fitment 
 
